@@ -1,0 +1,155 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(85, 167, 235);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.row .col-40 {
+    width: 40%;
+    height: 100%;
+}
+
+.row .col-40 figure {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.row .col-40 figure img {
+    height: 350px;
+    border-radius: 30px;
+    margin-top: 25%;
+}
+
+.row .col-60 {
+    width: 60%;
+    height: 100vh;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.row .col-60 form {
+    width: 100%;
+}
+
+.row .col-60 form .div-group {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.row .col-60 form .div-group h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+    margin: 0;
+    padding: 0;
+}
+
+.row .col-60 form .div-group ul {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.row .col-60 form .div-group ul li {
+    padding: 5px, 20px, 5px, 20px;
+}
+
+.row .col-60 form .div-group ul li label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+.row .col-60 form .div-group ul li input {
+    width: 15px;
+    height: 15px;
+    border: solid 10px rgb(0, 8, 10);
+}
+
+.row .col-60 form .div-group ul li input:checked {
+    border: solid 1px blue;
+    color: blue;
+}
+
+.row .col-60 form .div-group:nth-child(3) {
+    display: flex;
+    width: 100%;
+}
+
+.row .col-60 form .div-group:nth-child(3) input {
+    padding: 14px 7 px;
+    margin: 0 auto;
+    border: solid 1px steelblue;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    color: steelblue;
+    outline: none;
+}
+
+.row .col-60 form .div-group:nth-child(3) input:focus {
+    border: solid 2px blue;
+    box-sizing: border-box;
+}
+
+.row .col-60 form .div-group:nth-child(3) input:active {
+    border: none;
+}
+
+.row .col-60 form .div-group:nth-child(4) {
+    display: flex;
+    flex-direction: column;
+}
+
+.row .col-60 form .div-group:nth-child(4) label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.row .col-60 form .div-group:nth-child(4) textarea {
+    border-radius: 7px;
+    outline: none;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    color: rgb(56, 56, 58);
+}
+
+.row .col-60 form .div-group:nth-child(5) button {
+    border-radius: 17px;
+    padding: 13px 7px;
+    width: 100%;
+    background-color: white;
+    color: rgb(0, 8, 10);
+    font-size: 1.3rem;
+    border: none;
+}
+
+.row .col-60 form .div-group:nth-child(5) button:hover {
+    background-color: mediumseagreen;
+    color: wheat;
+    cursor: pointer;
+}
