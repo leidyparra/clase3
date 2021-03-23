@@ -1,7 +1,7 @@
 html {
+    background-color: rgb(85, 167, 235);
     margin: 0;
     padding: 0;
-    background-color: rgb(85, 167, 235);
 }
 
 body {
@@ -57,6 +57,7 @@ body {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
+    margin-top: 25px;
 }
 
 .row .col-60 form .div-group h2 {
