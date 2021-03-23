@@ -57,6 +57,7 @@ body {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
+    margin-top: 25px;
 }
 
 .row .col-60 form .div-group h2 {
